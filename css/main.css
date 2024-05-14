@@ -1,0 +1,43 @@
+/*--------------------DataViz - Test - CSS ----------------------------*/
+
+/*----Remiose à 0 de toutes les marges----*/
+
+@font-face {
+    font-family: "Roboto";
+    src: 
+        local("Roboto"),
+        url("../Fonts/Roboto/Roboto-Regular.ttf") format("TrueType"),
+        url('../Fonts/Roboto/Roboto-Medium.ttf') format("TrueType"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------MAIN-------------*/
+
+body {
+    font-family: "Roboto";
+}
+
+#main canvas {
+    position: relative;
+    z-index: 2;
+}
+
+#main img {
+    position: absolute; 
+    opacity: 0.05;
+    width: 50%;
+    top: 2%;
+    left: 25%;
+    height: auto;
+}
+
+footer {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 11px;
+    color: darkgray;
+}
